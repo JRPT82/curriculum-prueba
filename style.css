@@ -1,0 +1,30 @@
+*{
+    box-sizing:border-box;
+}
+#foto{
+    width: 200px;
+    height: auto
+}
+ul{
+    list-style: none;
+}
+h2{
+    text-align: center;
+    text-shadow: 1px 1px 6px black;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    text-align: center;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+         }
+/* Piso el stylo de Bootstrap pero no queria los botones azules ... */
+.accordion-button:focus{
+    background-color: black;
+    color: white;
+    box-shadow: 1px 1px 6px black;
+}
